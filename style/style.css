@@ -21,27 +21,34 @@
     padding: 5px;
 }
 
-
-
-
-
-
-@font-face {
-    font-family: 'GoldenHopes';
-    src: url("../fonts/GoldenHopes.otf") format("opentype");
-}
-
 body {
+    font-family: "Montserrat"; ;
     background-color: #041821;
-
+.icones{
+    text-align: right;
+    color: #fafafa;
 }
 
-main #Lorem {
-    font-family: "Montserrat";
+.solene {
+
+    color: #fafafa;
+}
+
+
+
+}
+main{
+    
+    margin: 0 50px;
+
+ .Lorem {
+   
     font-size: 11px;
     color: #7c878b;
     display: flex;
     flex-wrap: wrap;
+    max-width:800px;
+    font-size: medium;
 }
 
 
@@ -53,7 +60,7 @@ h1 {
 
 h2 {
     text-indent: 50px;
-    font-family: 'droid_sansregular', 'Arial', sans-serif;
+    font-family: 'droid_sansregular', 'Arial';
 }
 
 p {
@@ -73,6 +80,7 @@ h4 {
     font-size: 40px;
     font-family: "Yeseva One", sans-serif;
     color: #fafafa;
+    
 }
 
 
@@ -123,15 +131,29 @@ li {
     padding-bottom: 2vh;
   }
 
-  .imagesall img {
-    max-width: 100%;
-    height: 100%;
-  }
 
 
-.icones {  
-    text-align : right   ;
-    margin-top: 16px;
-    color: #fafafa;
+
+header{
+border-bottom: 1px solid white;
+padding: 1.5em 0;
+
 }
 
+
+
+}
+
+
+
+footer p {
+
+    text-align: center;
+    color: wheat;
+    font-size: 10px;
+
+}
+
+.cee { /*Pour que seul créative et engagée soit vert */
+    color : #16d49a ;
+}
